@@ -118,3 +118,4 @@ The complete list of variables of each feature vector is as follow
 79	fBodyBodyAccJerkMagstd
 80	fBodyBodyGyroMagstd
 81	fBodyBodyGyroJerkMagstd
+
