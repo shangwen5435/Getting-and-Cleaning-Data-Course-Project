@@ -1,0 +1,120 @@
+Feature Selection 
+=================
+
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+The set of variables that were estimated from these signals are: 
+
+mean: Mean value
+std: Standard deviation
+
+
+The complete list of variables of each feature vector is as follow
+
+
+1	id
+2	activity
+3	tBodyAccmeanX
+4	tBodyAccmeanY
+5	tBodyAccmeanZ
+6	tGravityAccmeanX
+7	tGravityAccmeanY
+8	tGravityAccmeanZ
+9	tBodyAccJerkmeanX
+10	tBodyAccJerkmeanY
+11	tBodyAccJerkmeanZ
+12	tBodyGyromeanX
+13	tBodyGyromeanY
+14	tBodyGyromeanZ
+15	tBodyGyroJerkmeanX
+16	tBodyGyroJerkmeanY
+17	tBodyGyroJerkmeanZ
+18	tBodyAccMagmean
+19	tGravityAccMagmean
+20	tBodyAccJerkMagmean
+21	tBodyGyroMagmean
+22	tBodyGyroJerkMagmean
+23	fBodyAccmeanX
+24	fBodyAccmeanY
+25	fBodyAccmeanZ
+26	fBodyAccmeanFreqX
+27	fBodyAccmeanFreqY
+28	fBodyAccmeanFreqZ
+29	fBodyAccJerkmeanX
+30	fBodyAccJerkmeanY
+31	fBodyAccJerkmeanZ
+32	fBodyAccJerkmeanFreqX
+33	fBodyAccJerkmeanFreqY
+34	fBodyAccJerkmeanFreqZ
+35	fBodyGyromeanX
+36	fBodyGyromeanY
+37	fBodyGyromeanZ
+38	fBodyGyromeanFreqX
+39	fBodyGyromeanFreqY
+40	fBodyGyromeanFreqZ
+41	fBodyAccMagmean
+42	fBodyAccMagmeanFreq
+43	fBodyBodyAccJerkMagmean
+44	fBodyBodyAccJerkMagmeanFreq
+45	fBodyBodyGyroMagmean
+46	fBodyBodyGyroMagmeanFreq
+47	fBodyBodyGyroJerkMagmean
+48	fBodyBodyGyroJerkMagmeanFreq
+49	tBodyAccstdX
+50	tBodyAccstdY
+51	tBodyAccstdZ
+52	tGravityAccstdX
+53	tGravityAccstdY
+54	tGravityAccstdZ
+55	tBodyAccJerkstdX
+56	tBodyAccJerkstdY
+57	tBodyAccJerkstdZ
+58	tBodyGyrostdX
+59	tBodyGyrostdY
+60	tBodyGyrostdZ
+61	tBodyGyroJerkstdX
+62	tBodyGyroJerkstdY
+63	tBodyGyroJerkstdZ
+64	tBodyAccMagstd
+65	tGravityAccMagstd
+66	tBodyAccJerkMagstd
+67	tBodyGyroMagstd
+68	tBodyGyroJerkMagstd
+69	fBodyAccstdX
+70	fBodyAccstdY
+71	fBodyAccstdZ
+72	fBodyAccJerkstdX
+73	fBodyAccJerkstdY
+74	fBodyAccJerkstdZ
+75	fBodyGyrostdX
+76	fBodyGyrostdY
+77	fBodyGyrostdZ
+78	fBodyAccMagstd
+79	fBodyBodyAccJerkMagstd
+80	fBodyBodyGyroMagstd
+81	fBodyBodyGyroJerkMagstd
